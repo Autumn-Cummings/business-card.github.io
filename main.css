@@ -1,0 +1,56 @@
+body{
+    background-color: #BCBEC0;
+}
+.front-card{
+    width:350px;
+    height: 612px;
+    margin: 0 auto;
+    background-image:url("Assets/Business\ card\ Images\ copy.svg");
+    margin-bottom: 70px;
+}
+.back-card{
+    width:350px;
+    height: 612px;
+    margin: 0 auto;
+    background-image:url("Assets/Business\ card\ Back\ Image.svg");
+}
+.icon-container{
+    display:grid;
+    width: 60px;
+    grid-gap: 20px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "a"
+    "b"
+    "c";
+    padding-left: 80%;
+    padding-top: 110%;
+  }
+  .first-name{
+      position:absolute;
+      font-size: 30px;
+      font-family: cursive;
+      padding-left: 6%;
+      padding-top: 6%;
+  }
+  .last{
+      position:absolute;
+      font-size: 25px;
+      font-family: cursive;
+      padding-left: 5%;
+      padding-top: 12%;
+  }
+  .label{
+      position:absolute;
+      font-size: 20px;
+      font-family: cursive;
+      padding-left: 7%;
+      padding-top: 20%;
+  }
+  .email-address{
+      position:absolute;
+      font-size: 4.5px;
+      padding-left: 9%;
+      padding-top: 45%;
+  }
